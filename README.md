@@ -13,4 +13,17 @@ The following instructions describe the steps required to:
 * build and run the Netflix Eureka service
 
 ---
+### clone and build the dashboard app to run on http://localhost:9110
+git clone https://github.com/in-the-keyhole/khs-trouble-maker.git khs-trouble-maker
+cd khs-trouble-maker
+mvn clean install
+java -jar target/khs-trouble-maker.jar &
+cd ..
+
+### clone and build the employee rest service to run at http://localhost:8082/employees
+git clone https://github.com/in-the-keyhole/khs-employee-service.git khs-employee-service
+cd khs-employee-service
+mvn clean install
+java -jar target/khs-trouble-maker.jar &
+cd ..
 
