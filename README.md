@@ -38,4 +38,4 @@ The following instructions describe the steps required to:
 * open a browser with http://localhost:9110
 * you should see (and be able to make trouble for) the employee service JVM instance
 
-<img style="width:80%;margin-left:10%;" src="https://raw.githubusercontent.com/ljv5555/trouble-maker-demo/master/ktm.png"/>
+<img style="width:80%;margin-left:10%;" src="/ljv5555/khs-trouble-maker-demo/blob/master/ktm.png?raw=true"/>
