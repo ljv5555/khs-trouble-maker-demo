@@ -25,7 +25,7 @@ the following may be run from a single terminal window but it may be easier or c
  cd esw/eureka-service
  mvn clean install
  java -jar target/eureka-service-0.0.1-SNAPSHOT.jar &
- cd ..
+ cd ../..
 ```
 
 ### 2. clone and build the dashboard app to run on http://localhost:9110
