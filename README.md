@@ -23,21 +23,21 @@ the following may be run from a single terminal window but it may be easier or c
 * git clone https://github.com/ljv5555/khs-trouble-maker-demo.git esw
 * cd esw/eureka-service
 * mvn clean install
-* java -jar target/eureka-service-0.0.1-SNAPSHOT.jar &
+* java -jar target/eureka-service-0.0.1-SNAPSHOT.jar \&
 * cd ..
 
 ### 2. clone and build the dashboard app to run on http://localhost:9110
 * git clone https://github.com/in-the-keyhole/khs-trouble-maker.git khs-trouble-maker
 * cd khs-trouble-maker
 * mvn clean install
-* java -jar target/khs-trouble-maker.jar -Deureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/ &
+* java -jar target/khs-trouble-maker.jar -Deureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/ \&
 * cd ..
 
 ### 3. clone and build the employee rest service to run at http://localhost:8082/employees
 * git clone https://github.com/in-the-keyhole/khs-employee-service.git khs-employee-service
 * cd khs-employee-service
 * mvn clean install
-* java -jar target/khs-trouble-maker.jar -Deureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/ &
+* java -jar target/khs-trouble-maker.jar -Deureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/ \&
 * cd ..
 
 ### open khs-trouble-maker dashboard
