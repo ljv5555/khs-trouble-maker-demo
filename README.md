@@ -14,7 +14,9 @@ The following instructions describe the steps required to:
 * build and run the application "Employee Service" by Keyhole Software (which contains the "client" servlet to be controlled by the dashboard application)
 
 * build and run the Netflix Eureka service
+
 ---
+
 the following may be run from a single terminal window but it may be easier or cleaner to open a new window for steps 1-3 (each starting in the same folder)
 ---
 ### 1. clone and build the eureka service wrapper to run at http://localhost:8761/eureka
